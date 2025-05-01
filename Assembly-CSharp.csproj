@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{706AAA94-0E93-B8EA-3D05-5D3BF44161FE}</ProjectGuid>
+    <ProjectGuid>{322DD69A-8ECC-0C7A-DFE1-CA72789B8E01}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,8 +67,8 @@
     <Compile Include="Assets\ZXing.Net\client\result\EmailAddressResultParser.cs" />
     <Compile Include="Assets\ZXing.Net\client\result\AddressBookDoCoMoResultParser.cs" />
     <Compile Include="Assets\ZXing.Net\common\EncodingOptions.cs" />
-    <Compile Include="Assets\ZXing.Net\qrcode\decoder\DecodedBitStreamParser.cs" />
     <Compile Include="Assets\ZXing.Net\multi\qrcode\QRCodeMultiReader.cs" />
+    <Compile Include="Assets\ZXing.Net\qrcode\decoder\DecodedBitStreamParser.cs" />
     <Compile Include="Assets\ZXing.Net\Writer.cs" />
     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\FieldParser.cs" />
     <Compile Include="Assets\ZXing.Net\maxicode\decoder\BitMatrixParser.cs" />
@@ -79,16 +79,16 @@
     <Compile Include="Assets\ZXing.Net\maxicode\decoder\Decoder.cs" />
     <Compile Include="Assets\ZXing.Net\oned\UPCEANReader.cs" />
     <Compile Include="Assets\ZXing.Net\datamatrix\decoder\DataBlock.cs" />
-    <Compile Include="Assets\ZXing.Net\MultiFormatReader.cs" />
     <Compile Include="Assets\ZXing.Net\common\BigInteger\BigIntegerException.cs" />
+    <Compile Include="Assets\ZXing.Net\MultiFormatReader.cs" />
     <Compile Include="Assets\ZXing.Net\oned\EANManufacturerOrgSupport.cs" />
     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\BlockParsedResult.cs" />
     <Compile Include="Assets\QRCodeScanner.cs" />
     <Compile Include="Assets\ZXing.Net\Dimension.cs" />
     <Compile Include="Assets\ZXing.Net\oned\Code93Writer.cs" />
     <Compile Include="Assets\ZXing.Net\oned\ITFWriter.cs" />
-    <Compile Include="Assets\ZXing.Net\oned\rss\expanded\ExpandedRow.cs" />
     <Compile Include="Assets\ZXing.Net\RGBLuminanceSource.cs" />
+    <Compile Include="Assets\ZXing.Net\oned\rss\expanded\ExpandedRow.cs" />
     <Compile Include="Assets\ZXing.Net\maxicode\MaxiCodeReader.cs" />
     <Compile Include="Assets\ZXing.Net\datamatrix\encoder\TextEncoder.cs" />
     <Compile Include="Assets\ZXing.Net\common\detector\WhiteRectangleDetector.cs" />
@@ -111,8 +111,8 @@
     <Compile Include="Assets\ZXing.Net\aztec\encoder\BinaryShiftToken.cs" />
     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\DecodedInformation.cs" />
     <Compile Include="Assets\ZXing.Net\PlanarYUVLuminanceSource.cs" />
-    <Compile Include="Assets\ZXing.Net\qrcode\encoder\QrCodeEncodingOptions.cs" />
     <Compile Include="Assets\ZXing.Net\multi\GenericMultipleBarcodeReader.cs" />
+    <Compile Include="Assets\ZXing.Net\qrcode\encoder\QrCodeEncodingOptions.cs" />
     <Compile Include="Assets\ZXing.Net\pdf417\encoder\Compaction.cs" />
     <Compile Include="Assets\ZXing.Net\common\DefaultGridSampler.cs" />
     <Compile Include="Assets\ZXing.Net\common\detector\MathUtils.cs" />
@@ -127,8 +127,8 @@
     <Compile Include="Assets\ZXing.Net\pdf417\decoder\DetectionResultRowIndicatorColumn.cs" />
     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AI013x0xDecoder.cs" />
     <Compile Include="Assets\ZXing.Net\pdf417\encoder\BarcodeRow.cs" />
-    <Compile Include="Assets\ZXing.Net\pdf417\PDF417Reader.cs" />
     <Compile Include="Assets\ZXing.Net\pdf417\decoder\BarcodeValue.cs" />
+    <Compile Include="Assets\ZXing.Net\pdf417\PDF417Reader.cs" />
     <Compile Include="Assets\ZXing.Net\common\ECI.cs" />
     <Compile Include="Assets\ZXing.Net\oned\Code128EncodingOptions.cs" />
     <Compile Include="Assets\ZXing.Net\pdf417\decoder\DetectionResultColumn.cs" />
@@ -160,8 +160,8 @@
     <Compile Include="Assets\ZXing.Net\qrcode\encoder\MatrixUtil.cs" />
     <Compile Include="Assets\ZXing.Net\aztec\detector\Detector.cs" />
     <Compile Include="Assets\ZXing.Net\client\result\SMSMMSResultParser.cs" />
-    <Compile Include="Assets\ZXing.Net\client\result\URIParsedResult.cs" />
     <Compile Include="Assets\ZXing.Net\renderer\PixelData.cs" />
+    <Compile Include="Assets\ZXing.Net\client\result\URIParsedResult.cs" />
     <Compile Include="Assets\ZXing.Net\oned\ITFReader.cs" />
     <Compile Include="Assets\ZXing.Net\aztec\AztecDetectorResult.cs" />
     <Compile Include="Assets\ZXing.Net\oned\UPCEANWriter.cs" />
@@ -206,6 +206,7 @@
     <Compile Include="Assets\ZXing.Net\common\GlobalHistogramBinarizer.cs" />
     <Compile Include="Assets\ZXing.Net\imb\IMBReader.cs" />
     <Compile Include="Assets\ZXing.Net\datamatrix\encoder\HighLevelEncoder.cs" />
+    <Compile Include="Assets\MainComp.cs" />
     <Compile Include="Assets\ZXing.Net\aztec\encoder\SimpleToken.cs" />
     <Compile Include="Assets\ZXing.Net\BarcodeWriter.PixelData.cs" />
     <Compile Include="Assets\ZXing.Net\Result.cs" />
@@ -217,8 +218,8 @@
     <Compile Include="Assets\ZXing.Net\qrcode\detector\AlignmentPatternFinder.cs" />
     <Compile Include="Assets\ZXing.Net\oned\rss\AbstractRSSReader.cs" />
     <Compile Include="Assets\ZXing.Net\aztec\encoder\Token.cs" />
-    <Compile Include="Assets\ZXing.Net\pdf417\encoder\PDF417EncodingOptions.cs" />
     <Compile Include="Assets\ZXing.Net\common\CharacterSetECI.cs" />
+    <Compile Include="Assets\ZXing.Net\pdf417\encoder\PDF417EncodingOptions.cs" />
     <Compile Include="Assets\ZXing.Net\IBarcodeWriter.Color32.cs" />
     <Compile Include="Assets\ZXing.Net\BarcodeWriter.SvgImage.cs" />
     <Compile Include="Assets\ZXing.Net\InvertedLuminanceSource.cs" />
@@ -232,11 +233,11 @@
     <Compile Include="Assets\ZXing.Net\client\result\ParsedResultType.cs" />
     <Compile Include="Assets\ZXing.Net\client\result\VEventResultParser.cs" />
     <Compile Include="Assets\ZXing.Net\oned\UPCEANExtension2Support.cs" />
+    <Compile Include="Assets\ZXing.Net\common\DetectorResult.cs" />
     <Compile Include="Assets\ZXing.Net\oned\rss\Pair.cs" />
     <Compile Include="Assets\ZXing.Net\pdf417\decoder\DetectionResult.cs" />
-    <Compile Include="Assets\ZXing.Net\common\DetectorResult.cs" />
-    <Compile Include="Assets\ZXing.Net\oned\UPCEReader.cs" />
     <Compile Include="Assets\ZXing.Net\pdf417\decoder\DecodedBitStreamParser.cs" />
+    <Compile Include="Assets\ZXing.Net\oned\UPCEReader.cs" />
     <Compile Include="Assets\ZXing.Net\qrcode\encoder\MaskUtil.cs" />
     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\BitArrayBuilder.cs" />
     <Compile Include="Assets\ZXing.Net\client\result\URLTOResultParser.cs" />
@@ -252,9 +253,9 @@
     <Compile Include="Assets\ZXing.Net\qrcode\encoder\ByteMatrix.cs" />
     <Compile Include="Assets\ZXing.Net\DecodeHintType.cs" />
     <Compile Include="Assets\ZXing.Net\IBarcodeReaderCustom.Multiple.cs" />
+    <Compile Include="Assets\ZXing.Net\oned\UPCEANExtension5Support.cs" />
     <Compile Include="Assets\ZXing.Net\oned\MultiFormatUPCEANReader.cs" />
     <Compile Include="Assets\ZXing.Net\IBarcodeWriterCustom.cs" />
-    <Compile Include="Assets\ZXing.Net\oned\UPCEANExtension5Support.cs" />
     <Compile Include="Assets\ZXing.Net\aztec\decoder\Decoder.cs" />
     <Compile Include="Assets\ZXing.Net\pdf417\encoder\BarcodeMatrix.cs" />
     <Compile Include="Assets\ZXing.Net\IBarcodeWriter.SvgImage.cs" />
@@ -330,6 +331,7 @@
     <Compile Include="Assets\ZXing.Net\oned\CodaBarReader.cs" />
     <Compile Include="Assets\ZXing.Net\common\reedsolomon\GenericGF.cs" />
     <Compile Include="Assets\ZXing.Net\multi\ByQuadrantReader.cs" />
+    <Compile Include="Assets\UnityTransportClient.cs" />
     <Compile Include="Assets\ZXing.Net\client\result\BookmarkDoCoMoResultParser.cs" />
     <Compile Include="Assets\ZXing.Net\datamatrix\encoder\EdifactEncoder.cs" />
     <Compile Include="Assets\ZXing.Net\renderer\SvgRenderer.cs" />
@@ -606,6 +608,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@2.2.1\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -982,17 +990,56 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Networking.Transport">
+      <HintPath>Library\ScriptAssemblies\Unity.Networking.Transport.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
@@ -1006,50 +1053,35 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    <Reference Include="Unity.Networking.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Networking.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

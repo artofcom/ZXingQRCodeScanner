@@ -17,6 +17,8 @@ public class QRCodeScanner : MonoBehaviour
     private WebCamTexture webcamTexture;
     private BarcodeReader barcodeReader;
 
+    public string QRCodeData => resultText?.text;
+
     void Start()
     {
         // ZXing 초기화
